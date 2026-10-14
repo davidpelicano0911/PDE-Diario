@@ -10,29 +10,12 @@
 
 ---
 
-## Semana 1 - 21 a 25 de setembro de 2026
+## Semana 1 - 21 a 27 de setembro de 2026
 
 ### Tarefas realizadas
-- [x] Ler a proposta da tese
-  - [x] Enquadramento
-  - [x] Objetivos
-  - [x] Descrição faseada do trabalho
-  - [x] Competências a adquirir
-- [x] Ler o plano de trabalhos da bolsa
-  - [x] Contexto: projeto CUK4ALL
-  - [x] Caracterização dos trabalhos
-  - [x] Calendarização das tarefas
-- [x] Perceber a ligação entre bolsa e tese
-  - [x] Plataforma Wish And Cook como caso de estudo
-  - [x] Trabalho da bolsa como base experimental da dissertação
-- [x] Levantar tecnologias envolvidas
-  - [x] Docker / containers
-  - [x] Prometheus e Grafana
-  - [x] OpenTelemetry
-  - [x] Elasticsearch / ELK Stack
-  - [x] Python
-  - [x] Técnicas de deteção de anomalias
-- [x] Identificar os 3 pilares da observabilidade: logs, métricas, traces
+- [x] Ler a proposta da tese e o plano de trabalhos da bolsa (projeto CUK4ALL), percebendo a ligação entre ambos: a plataforma Wish And Cook é o caso de estudo da dissertação
+- [x] Levantar as tecnologias envolvidas (Docker, Prometheus/Grafana, OpenTelemetry, ELK, Python, deteção de anomalias)
+- [x] Identificar os 3 pilares da observabilidade: logs, métricas e traces
 
 ### Tarefas a realizar
 - [ ] Reunião com orientador e coorientador na Wish&Cook
@@ -46,7 +29,7 @@
 
 ---
 
-## Semana 2 - 28 de setembro a 2 de outubro de 2026
+## Semana 2 - 28 de setembro a 4 de outubro de 2026
 
 ### Tarefas realizadas
 - [x] Reunião (segunda-feira) no escritório da Wish&Cook com o orientador e o coorientador
@@ -58,7 +41,7 @@
 ### Tarefas a realizar
 - [ ] Ler paper: *Integrating Large Language Models with Cloud-Native Observability for Automated Root Cause Analysis and Remediation* - apontamentos e análise
 - [ ] Ler paper: *Observability in Fog Computing* - apontamentos e análise
-- [ ] Começar a preparar a apresentação para a Sprint 1
+- [ ] Fazer e preparar a apresentação para a Sprint 1
 
 ### Notas
 - Existem vários métodos de root cause analysis e de deteção de anomalias
@@ -66,15 +49,19 @@
 
 ---
 
-## Semana 3 - 5 a 9 de outubro de 2026
+## Semana 3 - 5 a 11 de outubro de 2026
 
 ### Tarefas realizadas
 - [ ] Ler paper: *Integrating Large Language Models with Cloud-Native Observability for Automated Root Cause Analysis and Remediation* - apontamentos e análise
 - [ ] Ler paper: *Observability in Fog Computing* - apontamentos e análise
-- [ ] Começar a preparar a apresentação para a Sprint 1
+- [ ] Fazer e preparar a apresentação para a Sprint 1
 
 ### Tarefas a realizar
--
+- Preparar para  apresentação da Sprint 1
+- Ver que logs, métricas e monitorização já existem na plataforma Wish and Cook
+- Ler paper: *Anomaly Detection for IoT Time-Series Data: A Survey* - apontamentos e análise
+
+
 
 ### Notas
--
+No primeiro paper, usam o LLM para diagnosticar a causa raiz e propor a remediação, mas não explicam como separaram os dados de treino dos de teste nem como mediram os resultados, por isso os ganhos reportados não são verificáveis.

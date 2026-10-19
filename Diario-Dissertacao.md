@@ -57,7 +57,7 @@
 - [ ] Fazer e preparar a apresentação para a Sprint 1
 
 ### Tarefas a realizar
-- Preparar para  apresentação da Sprint 1
+- Preparar para apresentação da Sprint 1
 - Ver que logs, métricas e monitorização já existem na plataforma Wish and Cook
 - Ler paper: *Anomaly Detection for IoT Time-Series Data: A Survey* - apontamentos e análise
 
@@ -65,3 +65,21 @@
 
 ### Notas
 No primeiro paper, usam o LLM para diagnosticar a causa raiz e propor a remediação, mas não explicam como separaram os dados de treino dos de teste nem como mediram os resultados, por isso os ganhos reportados não são verificáveis.
+
+---
+
+## Semana 4 - 12 a 18 de outubro de 2026
+
+### Tarefas realizadas
+- [x] Preparar a apresentação da Sprint 1
+- [x] Ver que logs, métricas e monitorização já existem na plataforma Wish and Cook
+- [x] Ler paper: *Anomaly Detection for IoT Time-Series Data: A Survey* - apontamentos e análise
+
+### Tarefas a realizar
+- [ ] Ler paper: *A Survey of AIOps Methods for Failure Management* (Notaro, Cardoso, Gerndt) - apontamentos e análise
+- [ ] Ler paper: *AIOps: Real-World Challenges and Research Innovations* (Dang, Lin, Huang) - apontamentos e análise
+- [ ] Ler paper: *A Survey of AIOps in the Era of Large Language Models* (Zhang et al.) - apontamentos e análise
+- [ ] Ler paper: *Failure Diagnosis in Microservice Systems: A Comprehensive Survey and Analysis* - apontamentos e análise
+
+### Notas
+Com base apenas na análise do código e da configuração (a stack ainda não foi executada): a monitorização cobre parte da infraestrutura, mas a configuração da aplicação tem erros, os alertas não estão ativos e não há traces. No repositório, as métricas não identificam os robôs e o broker MQTT não é monitorizado.

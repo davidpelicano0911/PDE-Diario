@@ -77,9 +77,37 @@ No primeiro paper, usam o LLM para diagnosticar a causa raiz e propor a remedia�
 
 ### Tarefas a realizar
 - [ ] Ler paper: *A Survey of AIOps Methods for Failure Management* (Notaro, Cardoso, Gerndt) - apontamentos e análise
-- [ ] Ler paper: *AIOps: Real-World Challenges and Research Innovations* (Dang, Lin, Huang) - apontamentos e análise
-- [ ] Ler paper: *A Survey of AIOps in the Era of Large Language Models* (Zhang et al.) - apontamentos e análise
-- [ ] Ler paper: *Failure Diagnosis in Microservice Systems: A Comprehensive Survey and Analysis* - apontamentos e análise
+- [ ] Ler paper: *Automatic Root Cause Analysis via Large Language Models for Cloud Incidents* (Chen et al.) - apontamentos e análise
+- [ ] Ler paper: *Anomaly Detection and Root-Cause Identification in Microservices: A Survey* (Barata et al.) - apontamentos e análise
+
+
+
 
 ### Notas
 Com base apenas na análise do código e da configuração (a stack ainda não foi executada): a monitorização cobre parte da infraestrutura, mas a configuração da aplicação tem erros, os alertas não estão ativos e não há traces. No repositório, as métricas não identificam os robôs e o broker MQTT não é monitorizado.
+
+---
+
+## Semana 5 - 19 a 25 de outubro de 2026
+
+### Tarefas realizadas
+- [x] Ler paper: *A Survey of AIOps Methods for Failure Management* (Notaro, Cardoso, Gerndt) - apontamentos e análise
+- [x] Ler paper: *Automatic Root Cause Analysis via Large Language Models for Cloud Incidents* (Chen et al.) - apontamentos e análise
+- [x] Ler paper: *Anomaly Detection and Root-Cause Identification in Microservices: A Survey* (Barata et al.) - apontamentos e análise
+
+### Tarefas a realizar
+- [ ] Ler paper: *OpsCortex: Operational Memory for Self-Diagnosing Microservice Systems* (Seedat) - apontamentos e análise
+- [ ] Ler paper: *MicroRCA-Agent: Microservice Root Cause Analysis Method Based on Large Language Model Agents* (Tang et al.) - apontamentos e análise
+- [ ] Ler paper: *ST-GraphRCA: A Root Cause Analysis Model for Spatio-Temporal Graph Propagation in IoT Edge Computing* (Su et al.) - apontamentos e análise
+- [ ] Começar a preparar a organização do estado da arte
+- [ ] Fazer a apresentação para a Sprint 2 de PDE
+
+### Notas
+- **Notaro et al.:** organiza a gestão de falhas em AIOps. O sistema da tese é reativo (deteção, causa raiz e remediação), e a remediação é a parte menos estudada.
+- **Chen et al. (RCACopilot):** usa um LLM para classificar a causa raiz de incidentes cloud a partir de evidência recolhida automaticamente. Depende de um histórico de incidentes rotulados, que a Wish&Cook não tem.
+- **Barata et al.:** a abordagem mais comum é deteção não supervisionada com causa raiz baseada em grafos. Os resultados dos artigos não são comparáveis entre si e não há trabalhos em IoT.
+
+
+
+
+

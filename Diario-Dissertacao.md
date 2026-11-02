@@ -96,18 +96,33 @@ Com base apenas na análise do código e da configuração (a stack ainda não f
 - [x] Ler paper: *Anomaly Detection and Root-Cause Identification in Microservices: A Survey* (Barata et al.) - apontamentos e análise
 
 ### Tarefas a realizar
-- [ ] Ler paper: *OpsCortex: Operational Memory for Self-Diagnosing Microservice Systems* (Seedat) - apontamentos e análise
-- [ ] Ler paper: *MicroRCA-Agent: Microservice Root Cause Analysis Method Based on Large Language Model Agents* (Tang et al.) - apontamentos e análise
-- [ ] Ler paper: *ST-GraphRCA: A Root Cause Analysis Model for Spatio-Temporal Graph Propagation in IoT Edge Computing* (Su et al.) - apontamentos e análise
-- [ ] Começar a preparar a organização do estado da arte
-- [ ] Fazer a apresentação para a Sprint 2 de PDE
+- [ ] Ler paper: *Evaluation of IoT Self-healing Mechanisms using Fault-Injection in Message Brokers* (Duarte et al.) - apontamentos e análise
+- [ ] Ler paper: *ART: A Unified Unsupervised Framework for Incident Management in Microservice Systems* (Sun et al.) - apontamentos e análise
+- [ ] Ler paper: *Flow-of-Action: SOP Enhanced LLM-Based Multi-Agent System for Root Cause Analysis* (Pei et al.) - apontamentos e análise
+- [ ] Ler paper: *Solving The IoT Cascading Failure Dilemma using A Cooperative Multi-agent System* (Guittoum et al.) - apontamentos e análise
+- [ ] Ler paper: *RCAEval: A Benchmark for Root Cause Analysis of Microservice Systems with Telemetry Data* (Pham et al.) - apontamentos e análise
+- [ ] Fazer o PPT da Sprint 2 de PDE
 
 ### Notas
 - **Notaro et al.:** organiza a gestão de falhas em AIOps. O sistema da tese é reativo (deteção, causa raiz e remediação), e a remediação é a parte menos estudada.
 - **Chen et al. (RCACopilot):** usa um LLM para classificar a causa raiz de incidentes cloud a partir de evidência recolhida automaticamente. Depende de um histórico de incidentes rotulados, que a Wish&Cook não tem.
 - **Barata et al.:** a abordagem mais comum é deteção não supervisionada com causa raiz baseada em grafos. Os resultados dos artigos não são comparáveis entre si e não há trabalhos em IoT.
 
+---
 
+## Semana 6 - 26 de outubro a 1 de novembro de 2026
 
+### Tarefas realizadas
+- [x] Ler paper: *Evaluation of IoT Self-healing Mechanisms using Fault-Injection in Message Brokers* (Duarte et al.) - apontamentos e análise
+- [x] Ler paper: *ART: A Unified Unsupervised Framework for Incident Management in Microservice Systems* (Sun et al.) - apontamentos e análise
+- [x] Ler paper: *Flow-of-Action: SOP Enhanced LLM-Based Multi-Agent System for Root Cause Analysis* (Pei et al.) - apontamentos e análise
+- [x] Ler paper: *Solving The IoT Cascading Failure Dilemma using A Cooperative Multi-agent System* (Guittoum et al.) - apontamentos e análise
+- [x] Ler paper: *RCAEval: A Benchmark for Root Cause Analysis of Microservice Systems with Telemetry Data* (Pham et al.) - apontamentos e análise
+- [x] Fazer o PPT da Sprint 2 de PDE
 
+### Tarefas a realizar
+- [ ] Fazer a apresentação para a Sprint 2 de PDE
+- [ ] Ler paper: *OpsCortex: Operational Memory for Self-Diagnosing Microservice Systems* (Seedat) - apontamentos e análise
+- [ ] Ler paper: *MicroRCA-Agent: Microservice Root Cause Analysis Method Based on Large Language Model Agents* (Tang et al.) - apontamentos e análise
+- [ ] Ler paper: *ST-GraphRCA: A Root Cause Analysis Model for Spatio-Temporal Graph Propagation in IoT Edge Computing* (Su et al.) - apontamentos e análise
 
